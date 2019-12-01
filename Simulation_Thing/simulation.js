@@ -225,6 +225,7 @@ deerN -= 0.25;
   noStroke();
   text(round(hawkN), width/2 + 420, height/3 + 288 + 60 + 10);
 }
+}
 
 function timer() {
   textAlign(CENTER);
