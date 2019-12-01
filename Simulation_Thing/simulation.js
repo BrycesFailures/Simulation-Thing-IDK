@@ -48,7 +48,6 @@ function simulate() {
   fill(10);
   noStroke();
   text(round(cornN), width/2 + 420, height/3 + 60 + 10);
-}
   
   //Wheat
   if (wheatN > 0) {
