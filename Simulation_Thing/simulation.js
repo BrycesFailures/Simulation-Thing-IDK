@@ -172,9 +172,9 @@ rabbitN -= 0.5;
   //Wolf
   if (wolfN > 0) {
 deerN -= 0.25;
-    if (deerN / wolfN >= 1.5) {
+    if (deerN / wolfN >= 1.25) {
       if (random(2) > 1) {
-        wolfN += random(1);
+        wolfN += random(0.625);
       }
         } else {
           
