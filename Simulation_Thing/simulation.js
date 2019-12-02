@@ -1,4 +1,4 @@
-var time = 60;
+var time = 30;
 
 function simRects() {
   rectMode(CORNER);
@@ -155,7 +155,7 @@ rabbitN -= 0.5;
     if (rabbitN <= 0) {
         snakeN -= 0.2;
         }
-    snakeN -= random(0.2);
+    snakeN -= random(0.4);
   }
   
   if (snakeN < 0) {
