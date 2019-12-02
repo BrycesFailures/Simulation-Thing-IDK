@@ -1,4 +1,4 @@
-var time = 30;
+var time = 60;
 
 function simRects() {
   rectMode(CORNER);
@@ -189,7 +189,7 @@ deerN -= 0.25;
     if (deerN <= 0) {
         wolfN -= 0.2;
         }
-    wolfN -= random(0.2);
+    wolfN -= random(0.4);
       }
   
   if (wolfN < 0) {
